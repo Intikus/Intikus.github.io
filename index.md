@@ -6,7 +6,7 @@ title: Intikus' Place
 <!--everything under place.___-->
 
 # hi hi hi hi hi hi :) 
-## these are my stuffs,
+## These are my stuffs:
 
 <span style="color: #1e6bb8"> 
     [Bandcamp](https://intikus.bandcamp.com/)
@@ -27,3 +27,5 @@ title: Intikus' Place
 </span>
 
 [defyou]: https://www.youtube.com/channel/UCkB2uI7e4I6FuAoK8NsoBzQ
+
+

@@ -168,6 +168,12 @@ span[style] > a {
   }
 }
 
+img {
+  max-width: 100%;
+  position: absolute;
+  right:0
+}
+
 .main-content {
   word-wrap: break-word;
 
