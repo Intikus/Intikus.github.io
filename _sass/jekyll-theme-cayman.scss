@@ -168,11 +168,12 @@ span[style] > a {
   }
 }
 
-img {
+#thehors {
   max-width: 100%;
   position: absolute;
   right:0
 }
+
 
 .main-content {
   word-wrap: break-word;
@@ -214,6 +215,12 @@ img {
 
   img {
     max-width: 100%;
+  }
+  
+  .logo {
+    //vertical-align: middle;
+    max-width: 18px;
+    border-bottom: black;
   }
 
   h1 {
