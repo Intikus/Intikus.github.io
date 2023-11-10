@@ -53,13 +53,22 @@ body {
 }
 
 a {
-  //color: $body-link-color;
+  color: $body-link-color;
   text-decoration: none;
+  //color: inherit;
 
   &:hover {
     text-decoration: underline;
   }
 }
+span[style] > a {
+  color: inherit;
+}
+
+:not(span) > a {
+  color: $body-link-color
+}
+//hi lauraaaaa!!!!!!!!!!!!!!!!!!!!
 
 .btn {
   display: inline-block;
