@@ -5,7 +5,9 @@ title: Intikus' Place
 <!--shhhhhhhhhh-->
 <!--everything under place.___-->
 
-# hi hi hi hi hi hi :) 
+# hi hi hi hi hi hi <span style="color: $header-bg-color-secondary">[:)](/smile.md)</span>
+
+
 ## These are my stuffs:
 
 <span style="color: #1e6bb8"> 
