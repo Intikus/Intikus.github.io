@@ -52,14 +52,16 @@ body {
   }
 }
 
+a:hover > .linker {
+  text-decoration: underline;
+}
+
 a {
   color: $body-link-color;
   text-decoration: none;
   //color: inherit;
 
-  &:hover {
-    text-decoration: underline;
-  }
+ 
 }
 span[style] > a {
   color: inherit;
@@ -69,6 +71,21 @@ span[style] > a {
   color: $body-link-color
 }
 //hi lauraaaaa!!!!!!!!!!!!!!!!!!!!
+
+.spacer {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  vertical-align: middle;
+  max-width: 21px;
+  border-bottom: black;
+}
+
 
 .btn {
   display: inline-block;
@@ -211,16 +228,6 @@ span[style] > a {
     line-height: 10px;
     padding: 3px 5px;
     vertical-align: middle;
-  }
-
-  img {
-    max-width: 100%;
-  }
-  
-  .logo {
-    //vertical-align: middle;
-    max-width: 18px;
-    border-bottom: black;
   }
 
   h1 {
