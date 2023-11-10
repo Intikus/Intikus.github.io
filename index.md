@@ -1,19 +1,21 @@
-
-
-Sup 
-:) 
+---
+title: Intikus' Place
+---
+<!--{{ site.markdown }}-->
+<!--shhhhhhhhhh-->
+<!--everything under place.___-->
 
 # hi hi hi hi hi hi :) 
+## these are my stuffs,
 
-<https://intikus.bandcamp.com/>
+[Bandcamp](https://intikus.bandcamp.com/)
 
-<https://soundcloud.com/intikus>
+<!--<a href="https://open.spotify.com/artist/0lh9yNVFZeoVewmV5qESgZ?si=T0gMVHt4SqqTE8K2ucBm1A&nd=1¨" style="color: #FFCF40">Spotify</a>-->
+<span style="color: #FFCF40 !important" markdown="1"> 
+    [Spotify](https://open.spotify.com/artist/0lh9yNVFZeoVewmV5qESgZ?si=T0gMVHt4SqqTE8K2ucBm1A&nd=1)
+</span>
 
-
-[Spotify][sdef]
-
-[sdef]: https://open.spotify.com/artist/0lh9yNVFZeoVewmV5qESgZ?si=T0gMVHt4SqqTE8K2ucBm1A&nd=1¨
-
+[Soundcloud](https://soundcloud.com/intikus)
 
 [Youtube][defyou]
 

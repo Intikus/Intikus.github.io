@@ -1,2 +1,7 @@
 name: Intikus' HUB (Heads Up Bisplay)
-title: null
+title: Intikus' Place
+github:
+  is_project_page: false
+markdown: kramdown
+kramdown: 
+  input: GFM
