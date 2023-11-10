@@ -2,9 +2,9 @@ Sup
 :) 
 
 # hi
-https://intikus.bandcamp.com/ 
+<https://intikus.bandcamp.com/>
 
-https://soundcloud.com/intikus
+[https://soundcloud.com/intikus]
 
 
 [Spotify][sdef]
