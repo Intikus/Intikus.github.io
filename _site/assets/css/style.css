@@ -295,7 +295,7 @@ img { max-width: 100%; }
 @media screen and (min-width: 42em) and (max-width: 64em) { .project-tagline { font-size: 1.15rem; } }
 @media screen and (max-width: 42em) { .project-tagline { font-size: 1rem; } }
 
-#thehors { max-width: 100%; position: absolute; right: 0; }
+#thehors { width: 42%; max-height: 480px; max-width: 480px; position: absolute; right: 0; }
 
 .main-content { word-wrap: break-word; }
 .main-content :first-child { margin-top: 0; }
