@@ -1,4 +1,4 @@
-hi guys and girls and guygirls and that bullshit again
+hi guys and girls and guygirls and that bullshit [again](/neatdeluge.html)
 
 <div>
     <audio controls>

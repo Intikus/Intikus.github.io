@@ -26,7 +26,7 @@
     <link rel="image_src" href="https://intikus.github.io/resources/djbla.gif">
     <meta property="og:image" itemprop="image primaryImageOfPage" content="https://intikus.github.io/resources/djbla.gif"/>
     <meta content="#FFCF40" data-react-helmet="true" name="theme-color" />
-    <link rel="stylesheet" href="/assets/css/style.css?v=4a8ee909d9b352dae7250a9ce48505296e74ce8b">
+    <link rel="stylesheet" href="/assets/css/style.css?v=8a981f32f9865c9d28511192f5152a55dc35d418">
     <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.ico">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
@@ -56,9 +56,28 @@
     </header>
 
     <style> 
-      .jerk { animation: jerk 2s infinite; } @keyframes jerk { 0% { transform: rotate(0.5deg); } 50% { transform: rotate(0.5deg); } 51% { transform: rotate(-0.5deg); } 100% { transform: rotate(-0.5deg); } } 
+      .jerk { animation: jerk 1.125s infinite; } @keyframes jerk { 0% { transform: rotate(0.5deg); } 50% { transform: rotate(0.5deg); } 51% { transform: rotate(-0.5deg); } 100% { transform: rotate(-0.5deg); } } 
     </style>
 
+
+    <style>
+      .animated_rainbow_1 {
+        font-size: auto;
+        /*font-family: Arial Black, Gadget, sans-serif;*/
+
+        background-image: -webkit-linear-gradient(left, #ffcf40,#531599, #ffcf40);
+        -webkit-animation: animatedBackground_a 2s linear infinite alternate;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: #0000;
+        background-clip: text;
+      }
+
+      @keyframes animatedBackground_a {
+        0% { background-position: 0 0 }
+        100% { background-position: -500px 0 }
+      }
+    </style>
+          
     <img src="/resources/horsepfpfull.gif" id="thehors" alt="A beautiful horse eating apples">
     <main id="content" class="main-content" role="main">
       <!--kramdown-->
@@ -66,7 +85,9 @@
 <!--everything under place.___-->
 
 <h1 id="hi-hi-hi-hi-hi-hi-">hi hi hi hi hi hi <span style="color: $header-bg-color-secondary"><a href="/smile.html">:)</a></span></h1>
-<h2 id="these-are-my-stuffs">These are my stuffs:</h2>
+
+<h2 id="these-are-my-stuffs"><span class="animated_rainbow_1">These are my stuffs:</span></h2>
+
 <p><a href="https://intikus.bandcamp.com/" class="boxlink" style="color: #1e6bb8">
     <img src="resources/icons/bandcamP.png" class="logo" /><span class="spacer"> </span><span class="linker">Bandcamp</span>
 </a></p>
@@ -81,6 +102,14 @@
 
 <p><a href="https://www.youtube.com/channel/UCkB2uI7e4I6FuAoK8NsoBzQ" class="boxlink" style="color: red">
     <img src="resources\icons\Youtube.png" class="logo" /><span class="spacer"> </span><span class="linker">Youtube</span>
+</a></p>
+
+<p><a href="https://discord.gg/h2geDHyFny" class="boxlink" style="color: #5556ed">
+    <img src="resources\icons\DisCord.png" class="logo" /><span class="spacer"> </span><span class="linker">Discord</span>
+</a></p>
+
+<p><a href="https://github.com/Intikus" class="boxlink" style="color: black">
+    <img src="resources\icons\GithUB.png" class="logo" /><span class="spacer"> </span><span class="linker">Github</span>
 </a></p>
 
 <p><a href="https://www.twitch.tv/intikus" class="boxlink" style="color: purple">

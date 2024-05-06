@@ -6,7 +6,10 @@ title: Intikus' Place
 <!--everything under place.___-->
 
 # hi hi hi hi hi hi <span style="color: $header-bg-color-secondary">[:)](/smile.md)</span>
-## These are my stuffs:
+
+
+## <span class="animated_rainbow_1">These are my stuffs:</span>
+
 <a href="https://intikus.bandcamp.com/" class = "boxlink" style="color: #1e6bb8">
     <img src="resources/icons/bandcamP.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Bandcamp</span>
 </a>
@@ -21,6 +24,14 @@ title: Intikus' Place
 
 <a href="https://www.youtube.com/channel/UCkB2uI7e4I6FuAoK8NsoBzQ" class = "boxlink" style="color: red">
     <img src="resources\icons\Youtube.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Youtube</span>
+</a>
+
+<a href="https://discord.gg/h2geDHyFny" class = "boxlink" style="color: #5556ed">
+    <img src="resources\icons\DisCord.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Discord</span>
+</a>
+
+<a href="https://github.com/Intikus" class = "boxlink" style="color: black">
+    <img src="resources\icons\GithUB.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Github</span>
 </a>
 
 <a href="https://www.twitch.tv/intikus" class = "boxlink" style="color: purple">
