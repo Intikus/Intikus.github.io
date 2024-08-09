@@ -26,7 +26,7 @@
     <link rel="image_src" href="https://intikus.github.io/resources/djbla.gif">
     <meta property="og:image" itemprop="image primaryImageOfPage" content="https://intikus.github.io/resources/djbla.gif"/>
     <meta content="#FFCF40" data-react-helmet="true" name="theme-color" />
-    <link rel="stylesheet" href="/assets/css/style.css?v=8a981f32f9865c9d28511192f5152a55dc35d418">
+    <link rel="stylesheet" href="/assets/css/style.css?v=39f9001e1cb929c55be18e88e0966049c380b76d">
     <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.ico">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
@@ -56,17 +56,43 @@
     </header>
 
     <style> 
-      .jerk { animation: jerk 1.125s infinite; } @keyframes jerk { 0% { transform: rotate(0.5deg); } 50% { transform: rotate(0.5deg); } 51% { transform: rotate(-0.5deg); } 100% { transform: rotate(-0.5deg); } } 
+      .jerk { animation: jerk 0.88888888888888888888s infinite; } @keyframes jerk { 0% { transform: rotate(0.5deg); } 50% { transform: rotate(0.5deg); } 51% { transform: rotate(-0.5deg); } 100% { transform: rotate(-0.5deg); } } 
     </style>
 
 
     <style>
+      .animated_rainbow_1background {
+        font-size: 70px;
+        /*font-family: Arial Black, Gadget, sans-serif;*/
+        background-image: -webkit-linear-gradient(left, #ffcf40, #9C66FF, #ffcf40);
+        -webkit-animation: animatedBackground_a 5s linear infinite;
+        animation: animatedBackground_a 5s linear infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: #0000;
+        background-clip: text;
+        
+        filter: blur(10px);
+        position: absolute;
+        clear: both;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+
+      @keyframes animatedBackground_a {
+        0% { background-position: 0 0 }
+        100% { background-position: -150px 0 }
+      }
+    </style>
+    
+    <style>
       .animated_rainbow_1 {
-        font-size: auto;
+        font-size: 70px;
         /*font-family: Arial Black, Gadget, sans-serif;*/
 
-        background-image: -webkit-linear-gradient(left, #ffcf40,#531599, #ffcf40);
-        -webkit-animation: animatedBackground_a 2s linear infinite alternate;
+        background-image: -webkit-linear-gradient(left, #ffcf40,#9C66FF, #ffcf40);
+        -webkit-animation: animatedBackground_a 5s linear infinite;
+        animation: animatedBackground_a 5s linear infinite;
         -webkit-background-clip: text;
         -webkit-text-fill-color: #0000;
         background-clip: text;
@@ -74,10 +100,33 @@
 
       @keyframes animatedBackground_a {
         0% { background-position: 0 0 }
-        100% { background-position: -500px 0 }
+        100% { background-position: -150px 0 }
       }
     </style>
-          
+        
+    <style>
+      .animated_rainbow_2 {
+        font-size: auto;
+        /*font-family: Arial Black, Gadget, sans-serif;*/
+
+        background-image: -webkit-linear-gradient(left, #ffcf40, #ff4040,#ff40df,#531599, #4cee6f, #ffcf40);
+        -webkit-animation: animatedBackground_b 4s linear infinite;
+        animation: animatedBackground_b 4s linear infinite; 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: #0000;
+        background-clip: text;
+      }
+
+      @keyframes animatedBackground_b {
+        0% { 
+          background-position: 0 0;
+        } 
+        100% { 
+          background-position: -371.633px 0; 
+        }
+      }
+    </style>
+
     <img src="/resources/horsepfpfull.gif" id="thehors" alt="A beautiful horse eating apples">
     <main id="content" class="main-content" role="main">
       <p>hi guys and girls and guygirls and that bullshit <a href="/neatdeluge.html">again</a></p>
