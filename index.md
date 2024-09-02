@@ -36,7 +36,7 @@ Finally out after all this time [(click on the image or this text)](/gifts)
 </a>
 
 <a href="https://discord.gg/h2geDHyFny" class = "boxlink" style="color: #5556ed">
-    <img src="resources\icons\DisCord.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Discord</span>
+    <img src="resources\icons\DisCord.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Discord Server</span>
 </a>
 
 <a href="https://github.com/Intikus" class = "boxlink" style="color: black">
