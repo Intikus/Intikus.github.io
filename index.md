@@ -11,7 +11,7 @@ the album:
 ## <span class="animated_rainbow_1background">Gifts</span>
 ## <span class="animated_rainbow_1">Gifts</span> 
 
-<a href="/gifts" class = "boxlink" style="color: #1e6bb8">
+<a href="/gifts" id = "albumlink" style="color: #1e6bb8; display: block; width: fit-content;" >
     <img src="/resources/Billy-small.png" id = "thealbum" alt="A beautiful album cover eating apples" sizes="20vw">
 </a>
 
