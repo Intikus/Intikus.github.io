@@ -16,7 +16,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.ico">
     {% include head-custom.html %}
     <script src="/scripts/albumtilt.js" defer> </script>
-
+    <script src="/scripts/lettershake.js" defer> </script>
 
   </head>
   
@@ -25,9 +25,24 @@
 
     <header class="page-header" role="banner">
       
-      <div class="jerk"> 
-        <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      </div>
+      <!-- <div class="jerk">  -->
+        <!-- <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1> --> 
+        <h1 class="project-name">
+<div class="lettertile">I</div><!-- 
+--><div class="lettertile">n</div><!-- 
+--><div class="lettertile">t</div><!-- 
+--><div class="lettertile">i</div><!-- 
+--><div class="lettertile">k</div><!-- 
+--><div class="lettertile">u</div><!-- 
+--><div class="lettertile">s</div><!-- 
+--><div class="lettertile">'</div> <!-- 
+--><div class="lettertile">P</div><!-- 
+--><div class="lettertile">l</div><!-- 
+--><div class="lettertile">a</div><!-- 
+--><div class="lettertile">c</div><!-- 
+--><div class="lettertile">e</div>
+          </h1>
+      <!--</div>-->
       <!--<h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>-->
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
@@ -37,11 +52,6 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
     </header>
-
-    <style> 
-      .jerk { animation: jerk 0.88888888888888888888s infinite; } @keyframes jerk { 0% { transform: rotate(0.5deg); } 50% { transform: rotate(0.5deg); } 51% { transform: rotate(-0.5deg); } 100% { transform: rotate(-0.5deg); } } 
-    </style>
-
 
     <style>
       .animated_rainbow_1background {
