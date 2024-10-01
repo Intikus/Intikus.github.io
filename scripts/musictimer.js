@@ -51,11 +51,12 @@ function balls(){
                 //send bap
                 cooolor = `color:hsl(${beat*4},100%,50%);`
                 document.getElementById('beat').innerHTML += "\nbap";
-                
                 var value = Math.random()*200-100;
                 var xalue = Math.random()*24-12;
                 var yalue = Math.random()*24-12;
+                var salue = Math.random()*0.6+0.8
                 horsimage.style.setProperty("transform", `rotate(${value}deg) translate( ${xalue}px, ${yalue}px)`);
+                horsimage.style.setProperty("scale", `${salue}`);
             }
 
             //checker += 1
@@ -65,6 +66,7 @@ function balls(){
         }, 18);
     }
     else{
+        horsimage.style.setProperty("scale", `1`);
         horsimage.style.setProperty("transform", `rotate(${0}deg) translate( ${0}px, ${0}px)`);
     }
 }
