@@ -11,7 +11,7 @@ the album:
 ## <span class="animated_rainbow_1background">Gifts</span>
 ## <span class="animated_rainbow_1">Gifts</span> 
 
-<a href="/gifts" class = "boxlink" style="color: #1e6bb8">
+<a href="/gifts" id = "albumlink" style="color: #1e6bb8; display: block; width: fit-content;" >
     <img src="/resources/Billy-small.png" id = "thealbum" alt="A beautiful album cover eating apples" sizes="20vw">
 </a>
 
@@ -36,7 +36,7 @@ Finally out after all this time [(click on the image or this text)](/gifts)
 </a>
 
 <a href="https://discord.gg/h2geDHyFny" class = "boxlink" style="color: #5556ed">
-    <img src="resources\icons\DisCord.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Discord</span>
+    <img src="resources\icons\DisCord.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Discord Server</span>
 </a>
 
 <a href="https://github.com/Intikus" class = "boxlink" style="color: black">

@@ -167,6 +167,30 @@ img {
   }
 }
 
+.lettertile {
+  display: inline-block;
+  //animation: lettershake 0.5s infinite;
+  
+  animation-timing-function: cubic-bezier(.45,.05,.55,.95);
+}
+
+@keyframes lettershake {
+  0% {transform: rotate(20deg);} 
+  50% {transform: rotate(-20deg);}
+}
+
+
+.jerk 
+{ 
+  animation: jerk 0.88888888888888888888s infinite; 
+} 
+@keyframes jerk { 
+  0% { transform: rotate(0.5deg); } 
+  50% { transform: rotate(0.5deg); } 
+  51% { transform: rotate(-0.5deg); } 
+  100% { transform: rotate(-0.5deg); } 
+} 
+
 .project-tagline {
   margin-bottom: 2rem;
   font-weight: normal;
@@ -196,9 +220,8 @@ img {
 
 #thealbum {
   //max-width: 100%;
-  width: 42%;
-  max-height: 480px;
-  max-width: 480px;
+  max-height: 350px;
+  max-width: 350px;
   //position: absolute;
 }
 
