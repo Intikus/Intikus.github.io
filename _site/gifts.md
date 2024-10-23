@@ -1,5 +1,6 @@
-<div>
-    <meta http-equiv="refresh" content="0; url=https://intikus.bandcamp.com/album/gifts" />
-</div>
+<iframe style="border: 0; width: 350px; height: 786px;" src="https://bandcamp.com/EmbeddedPlayer/album=2729032388/size=large/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://intikus.bandcamp.com/album/gifts">Gifts by Intikus</a></iframe>
 
-[Hello](https://intikus.bandcamp.com/album/gifts)
+
+<a href="https://distrokid.com/hyperfollow/intikus/gifts-2" class = "boxlink" style="color: #1e6bb8">
+    <img src="/resources/Billy-small.png" id = "thealbum" alt="A beautiful album cover eating apples" sizes="20vw">
+</a>

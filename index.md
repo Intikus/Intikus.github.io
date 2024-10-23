@@ -51,6 +51,10 @@ Finally out after all this time [(click on the image or this text)](/gifts)
     <img src="resources/icons/tumblr.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Tumblr</span>
 </a>
 
+<a href="https://intikus.bsky.social" class = "boxlink" style="color: #177ff6">
+    <img src="resources\icons\bluEsky.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Bluesky</span>
+</a>
+
 <a href="https://twitter.com/Intikus" class = "boxlink" style="color: #1da1f2">
     <img src="resources\icons\twitteR.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Twitter</span>
 </a>
