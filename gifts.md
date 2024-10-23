@@ -1,6 +1,6 @@
 # After all this time, it's finally out
 
-<iframe style="border: 0; width: 350px; height: 786px;" src="https://bandcamp.com/EmbeddedPlayer/album=2729032388/size=large/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="https://intikus.bandcamp.com/album/gifts">Gifts by Intikus</a></iframe>
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2729032388/size=large/bgcol=333333/linkcol=e99708/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://intikus.bandcamp.com/album/gifts">Gifts by Intikus</a></iframe>
 
 # If you Want to check it out *Anywhere* Else, click the image!
 
