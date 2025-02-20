@@ -5,5 +5,5 @@
 # If you Want to check it out *Anywhere* Else, click the image!
 
 <a href="https://distrokid.com/hyperfollow/intikus/gifts-2" class = "boxlink" style="color: #1e6bb8">
-    <img src="/resources/Billy-small.png" id = "thealbum" alt="A beautiful album cover eating apples" sizes="19vw">
+    <img src="/resources/Billy-small.png" id = "thealbum" alt="A beautiful album cover eating apples" sizes="20vw">
 </a>
