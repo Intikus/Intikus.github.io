@@ -1,4 +1,7 @@
 var haha = document.getElementById("player")
+if (haha == null){
+    haha = 0
+}
 var isplaying = false
 var thetimenow = 0
 var startedat = 0
