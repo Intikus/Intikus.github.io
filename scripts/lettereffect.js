@@ -14,14 +14,19 @@ window.onload = function () {
           split.appendChild(letter);
         }
       });
-}
-
-function shakeit(letter){
-    var value = Math.random()*20-10;
-    var xalue = Math.random()*4-2  ;
-    var yalue = Math.random()*4-2  ;
-    //letter.style.setProperty("scale", `1`);
-    letter.style.setProperty("transform", `rotate(${value}deg) translate( ${xalue}px, ${yalue}px)`);
+    const bsplits = document.querySelectorAll('.split');
+    bsplits.forEach(bsplit => {
+      var text = bsplit.textContent;
+      bsplit.textContent = "";
+      //console.log(text)
+      for (let i=0; i< text.length; i++) {
+        var letter = document.createElement("span");
+        letter.classList.add("splitletter");
+        letter.textContent = text.charAt(i);
+        bsplit.appendChild(letter);
+        letter.style.animationDelay = (i-text.length)/10 + "s";
+      }
+    });
 }
 
 async function lettershake(letter){
@@ -30,4 +35,12 @@ async function lettershake(letter){
     setTimeout(() => {
         lettershake(letter);
     }, delay); 
+}
+
+function shakeit(letter){
+    var value = Math.random()*20-10;
+    var xalue = Math.random()*4-2  ;
+    var yalue = Math.random()*4-2  ;
+    //letter.style.setProperty("scale", `1`);
+    letter.style.setProperty("transform", `rotate(${value}deg) translate( ${xalue}px, ${yalue}px)`);
 }
