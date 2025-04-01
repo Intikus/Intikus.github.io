@@ -7,15 +7,16 @@
 <meta name="generator" content="Jekyll v3.10.0" />
 <meta property="og:title" content="Intikus’ Place" />
 <meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
+<link rel="canonical" href="http://localhost:4000/site.html" />
+<meta property="og:url" content="http://localhost:4000/site.html" />
 <meta property="og:site_name" content="Intikus’ Place" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Intikus’ Place" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"Intikus’ Place","name":"Intikus’ Place","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","headline":"Intikus’ Place","url":"http://localhost:4000/site.html"}</script>
 <!-- End Jekyll SEO tag -->
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,7 +27,7 @@
     <meta property="og:image" itemprop="image primaryImageOfPage" content="https://intikus.github.io/resources/djbla.gif"/>
     <meta content="#FFCF40" data-react-helmet="true" name="theme-color" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="../resources/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.ico">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
@@ -42,167 +43,38 @@
     <script src="../scripts/lettereffect.js" defer></script>
     <script src="../scripts/musictimer.js" defer></script>
     <script src="../scripts/horseanger.js" defer></script>
-  
-    <style>
-      #subtopnav {
-      /*position:fixed;*/
-      background-color: #282A35;
-      color:#f1f1f1;
-      padding:0;
-      letter-spacing:1px;
-      /*font-family: 'Source Sans Pro Topnav', sans-serif;*/
-      font-size:0;
-      /*top:56px;*/
-      z-index:2;
-      width:fit-content;
-      white-space:nowrap;
-      overflow:auto;
-      scrollbar-width: none;
-      max-width:1750px;
-      margin:initial;
-      transform: skew(-10deg);
-      border-radius:3px;
-
-      background-image: -webkit-linear-gradient(left,#9C66FF, #ffcf40);
-      /*-webkit-animation: animatedBackground_a 5s linear infinite;
-      animation: animatedBackground_a 5s linear infinite;*/
-        background-size: contain;
-        /*font-size: 2.25rem;*/
-      --webkit-background-clip: text;
-      /*--background-color: #0000;*/
-
-      }
-      #subtopnav a{
-        display:inline-block;
-        width:auto;
-        margin:0!important;
-        padding:5px 15px 5px 15px !important;
-        text-decoration: none;  
-        font-size:15px!important;
-        color:#fff!important;  
-      }
-      #subtopnav a:hover,#subtopnav a:focus,#subtopnav a:active{
-        background-color:#fff !important;
-        color:#000 !important;
-      }
-      #subtopnav a.active{
-        background-color: #ffffff34!important;
-        color:#fff!important;  
-      }
-    </style>
-  
-    <style>
-    .splitletter {
-      display: inline-block;
-      animation: 0.5s ease-in-out alternate infinite wavy;
-    }
-    
-    @keyframes wavy {
-    0% { transform: translateY(1.25px); }
-    100% { transform: translateY(-1.25px); }
-    }
-    </style>
-
   </head>
-
-
+  
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
-
     <header class="page-header" role="banner">
       
-        <h1 class="project-name">
-          <a href="./index.html">
-            <span style="color: #fff">
-              <div class="lettertile">Intikus' Place</div>
-            </span>
-          </a>
-        </h1>
-      
+      <h1 class="project-name">
+        <a href="./index.html">
+          <span style="color: #fff">
+            <div class="lettertile">Intikus' Place</div>
+          </span>
+        </a>
+      </h1>
       <div id="subtopnav">
         <span class="split"></span>
-        <a href="./my.html" class="ga-nav" title="my"><span class="split">my</span></a>
-        <a href="./music.html" class="ga-nav" title="music"><span class="split">music</span></a>
-        <a href="./portfolio.html" class="ga-nav" title="portfolio"><span class="split">portfolio</span></a>
-        <a href="./site.html" class="ga-nav active" title="site"><span class="split">site</span></a>
+        
+        <a href="./my.html"       class="ga-nav" title="my"><span class="split">my</span></a>
+        <a href="./music.html"    class="ga-nav" title="music"><span class="split">music</span></a>
+        <a href="./portfolio.html"class="ga-nav" title="portfolio"><span class="split">portfolio</span></a>
+        <a href="./site.html"     class="ga-nav active" title="site"><span class="split">site</span></a>
       </div>
-    </div>
+      
       
     </header>
 
-  <style>
-    .animated_rainbow_1background {
-      font-size: 70px;
-      /*font-family: Arial Black, Gadget, sans-serif;*/
-      background-image: -webkit-linear-gradient(left, #ffcf40, #9C66FF, #ffcf40);
-      -webkit-animation: animatedBackground_a 5s linear infinite;
-      animation: animatedBackground_a 5s linear infinite;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: #0000;
-      background-clip: text;
-      
-      filter: blur(10px);
-      position: absolute;
-      clear: both;
-      display: inline-block;
-      overflow: hidden;
-      white-space: nowrap;
-    }
+    <main id="content" class="main-content" role="main">
+      <p>Thanks Laura</p>
 
-    @keyframes animatedBackground_a {
-      0% { background-position: 0 0 }
-      100% { background-position: -150px 0 }
-    }
-  </style>
-  <style>
-    .animated_rainbow_1 {
-      font-size: 70px;
-      /*font-family: Arial Black, Gadget, sans-serif;*/
-
-      background-image: -webkit-linear-gradient(left, #ffcf40,#9C66FF, #ffcf40);
-      -webkit-animation: animatedBackground_a 5s linear infinite;
-      animation: animatedBackground_a 5s linear infinite;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: #0000;
-      background-clip: text;
-    }
-
-    @keyframes animatedBackground_a {
-      0% { background-position: 0 0 }
-      100% { background-position: -150px 0 }
-    }
-  </style>    
-  <style>
-    .animated_rainbow_2 {
-      font-size: auto;
-      /*font-family: Arial Black, Gadget, sans-serif;*/
-
-      background-image: -webkit-linear-gradient(left, #ffcf40, #ff4040,#ff40df,#531599, #4cee6f, #ffcf40);
-      -webkit-animation: animatedBackground_b 4s linear infinite;
-      animation: animatedBackground_b 4s linear infinite; 
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: #0000;
-      background-clip: text;
-    }
-
-    @keyframes animatedBackground_b {
-      0% { 
-        background-position: 0 0;
-      } 
-      100% { 
-        background-position: -371.633px 0; 
-      }
-    }
-  </style>
-
-      <img src="./resources/horsepfpfull.gif" id="thehors" alt="A beautiful horse eating apples">
-      <main id="content" class="main-content" role="main">
-
-        <p>site</p>
       <div id="neighing"></div>
       <footer class="site-footer">
         
-        <!--<span class="site-footer-credits">  This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>-->
+        <!-- hehe span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>-->
       </footer>
     </main>
   </body>

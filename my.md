@@ -5,25 +5,17 @@ title: Intikus' Place
 <!--shhhhhhhhhh-->
 <!--everything under place.___-->
 
-<img src="./resources/horsepfpfull.gif" id="thehors" alt="A beautiful horse eating apples"><!--remember to find out how to put this outside of the main-->
-
 # hi hi hi hi hi hi <span style="color: header-bg-color-secondary">[:)](/smile.md)</span>
 
 the album:
 ## <span class="animated_rainbow_1background">Gifts</span>
 ## <span class="animated_rainbow_1">Gifts</span>
 
-<a href="./gifts" id = "albumlink" style="color: #1e6bb8; display: block; width: fit-content;" >
-    <img src="./resources/Billy-small.png" id = "thealbum" alt="A beautiful album cover eating apples" sizes="20vw">
-</a>
-
+hahahahahaha
 Finally out after all this time [(click on the image or this text)](/gifts)
 
 ## <span class="animated_rainbow_2">Here's links to other positions:</span>
 
-<a href="https://intikus.bandcamp.com/" class = "boxlink" style="color: #1e6bb8">
-    <img src="resources/icons/bandcamP.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Bandcamp</span>
-</a>
 
 <a href="https://open.spotify.com/artist/0lh9yNVFZeoVewmV5qESgZ?si=T0gMVHt4SqqTE8K2ucBm1A&nd=1" class = "boxlink" style="color: #1DB954">
     <img src="resources\icons\spOtify.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Spotify</span>

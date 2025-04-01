@@ -5,8 +5,6 @@ title: Intikus' Place
 <!--shhhhhhhhhh-->
 <!--everything under place.___-->
 
-<img src="./resources/horsepfpfull.gif" id="thehors" alt="A beautiful horse eating apples"><!--remember to find out how to put this outside of the main-->
-
 # hi hi hi hi hi hi <span style="color: header-bg-color-secondary">[:)](/smile.md)</span>
 
 the album:
