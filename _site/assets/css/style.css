@@ -305,10 +305,6 @@ img { max-width: 100%; }
 @media screen and (min-width: 42em) and (max-width: 64em) { .project-tagline { font-size: 1.15rem; } }
 @media screen and (max-width: 42em) { .project-tagline { font-size: 1rem; } }
 
-#thehors { width: 42%; max-height: 480px; max-width: 480px; position: absolute; right: 0; }
-
-#thealbum { max-height: 350px; max-width: 350px; }
-
 .main-content { word-wrap: break-word; }
 .main-content :first-child { margin-top: 0; }
 @media screen and (min-width: 64em) { .main-content { max-width: 64rem; padding: 2rem 6rem; margin: 0 auto; font-size: 1.1rem; } }
@@ -373,3 +369,22 @@ animation: animatedBackground_a 5s linear infinite;*/ background-size: contain; 
 
 @keyframes animatedBackground_b { 0% { background-position: 0 0; }
   100% { background-position: -371.633px 0; } }
+#thehors { transform: translateY(-2rem); width: 42%; max-height: 480px; max-width: 480px; position: absolute; right: 0; }
+
+#thealbum { max-height: 350px; max-width: 350px; }
+
+.thing { width: 33.33333%; position: relative; float: left; overflow: hidden; line-height: 0; }
+
+.active { width: 100%; }
+
+.cover { width: 100%; height: auto; }
+
+.active > .cover { width: 50%; }
+
+.info { transition: opacity 0s; transition-timing-function: ease-out; position: absolute; opacity: 0%; float: left; line-height: 1.5; left: 50%; padding: 1.5%; border: black, 9px; border-radius: 4px; border-style: solid; }
+.info h1 { font-weight: bold; color: #531599; }
+.info h2 { margin-top: 0rem; margin-bottom: 0rem; font-weight: normal; color: #531599; }
+.info h3, .info h4, .info h5, .info h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #159957; }
+.info p { margin-bottom: 1em; }
+
+.active > .info { transition: opacity 2s; top: 0px; opacity: 100%; }
