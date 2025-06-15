@@ -357,11 +357,11 @@ animation: animatedBackground_a 5s linear infinite;*/ background-size: contain; 
 
 @keyframes wavy { 0% { transform: translateY(1.25px); }
   100% { transform: translateY(-1.25px); } }
-.animated_rainbow_1background { font-size: 70px; /*font-family: Arial Black, Gadget, sans-serif;*/ background-image: -webkit-linear-gradient(left, #ffcf40, #9C66FF, #ffcf40); -webkit-animation: animatedBackground_a 5s linear infinite; animation: animatedBackground_a 5s linear infinite; -webkit-background-clip: text; -webkit-text-fill-color: #0000; background-clip: text; filter: blur(10px); position: absolute; clear: both; display: inline-block; overflow: hidden; white-space: nowrap; }
-
 @keyframes animatedBackground_a { 0% { background-position: 0 0; }
   100% { background-position: -150px 0; } }
-.animated_rainbow_1 { font-size: 70px; /*font-family: Arial Black, Gadget, sans-serif;*/ background-image: -webkit-linear-gradient(left, #ffcf40, #9C66FF, #ffcf40); -webkit-animation: animatedBackground_a 5s linear infinite; animation: animatedBackground_a 5s linear infinite; -webkit-background-clip: text; -webkit-text-fill-color: #0000; background-clip: text; }
+.animated_rainbow_1 { font-size: 70px; background-image: -webkit-linear-gradient(left, #ffcf40, #9C66FF, #ffcf40); -webkit-animation: animatedBackground_a 5s linear infinite; animation: animatedBackground_a 5s linear infinite; -webkit-background-clip: text; -webkit-text-fill-color: #0000; background-clip: text; }
+
+.background { filter: blur(10px); position: absolute; clear: both; display: inline-block; overflow: hidden; white-space: nowrap; }
 
 @keyframes animatedBackground_a { 0% { background-position: 0 0; }
   100% { background-position: -150px 0; } }
@@ -369,11 +369,17 @@ animation: animatedBackground_a 5s linear infinite;*/ background-size: contain; 
 
 @keyframes animatedBackground_b { 0% { background-position: 0 0; }
   100% { background-position: -371.633px 0; } }
-#thehors { transform: translateY(-2rem); width: 42%; max-height: 480px; max-width: 480px; position: absolute; right: 0; }
+#thehors { transform: translateY(-2rem); width: 42%; max-height: 480px; max-width: 480px; position: absolute; right: 0; margin-top: 0rem; }
 
 #thealbum { max-height: 350px; max-width: 350px; }
 
-.thing { width: 33.33333%; position: relative; float: left; overflow: hidden; line-height: 0; }
+.websitesection { width: 100%; display: flex; justify-content: center; margin-bottom: 2rem; }
+
+.websitebutton { width: 15%; position: relative; float: left; overflow: clip; display: flex; border-radius: 100%; padding: 1.5%; margin-right: 3%; }
+
+.songlist { width: 100%; flex-wrap: wrap; display: flex; justify-content: left; font-size: 0px; }
+
+.thing { width: 33.33333%; position: relative; }
 
 .active { width: 100%; }
 
@@ -381,7 +387,7 @@ animation: animatedBackground_a 5s linear infinite;*/ background-size: contain; 
 
 .active > .cover { width: 50%; }
 
-.info { transition: opacity 0s; transition-timing-function: ease-out; position: absolute; opacity: 0%; float: left; line-height: 1.5; left: 50%; padding: 1.5%; border: black, 9px; border-radius: 4px; border-style: solid; }
+.info { transition: opacity 0s; transition-timing-function: ease-out; opacity: 0%; font-size: 1.1rem; aspect-ratio: 1 / 1; position: absolute; float: left; left: 50%; padding: 1.5%; border-color: black; border-width: medium; border-style: solid; }
 .info h1 { font-weight: bold; color: #531599; }
 .info h2 { margin-top: 0rem; margin-bottom: 0rem; font-weight: normal; color: #531599; }
 .info h3, .info h4, .info h5, .info h6 { margin-top: 2rem; margin-bottom: 1rem; font-weight: normal; color: #159957; }

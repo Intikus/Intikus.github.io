@@ -1,18 +1,9 @@
 ---
 title: Intikus' Place
 ---
-<div>
-    <img src="./resources/horsepfpfull.gif" id="thehors" alt="A beautiful horse eating apples">
-</div>
-<!--{{ site.markdown }}-->
-<!--shhhhhhhhhh-->
-<!--everything under place.___-->
+<img src="./resources/horsepfpfull.gif" id="thehors" alt="A beautiful horse eating apples">
 
-
-# hi hi hi hi hi hi <span style="color: header-bg-color-secondary">[:)](/smile.md)</span>
-
-the album:
-## <span class="animated_rainbow_1background">Gifts</span>
+## <span class="animated_rainbow_1 background">Gifts</span>
 ## <span class="animated_rainbow_1">Gifts</span>
 
 <a href="./gifts" id = "albumlink" style="color: #1e6bb8; display: block; width: fit-content;" >
