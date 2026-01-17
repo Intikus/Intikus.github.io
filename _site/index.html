@@ -26,8 +26,8 @@
     <link rel="image_src" href="https://intikus.github.io/resources/djbla.gif">
     <meta property="og:image" itemprop="image primaryImageOfPage" content="https://intikus.github.io/resources/djbla.gif"/>
     <meta content="#FFCF40" data-react-helmet="true" name="theme-color" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/resources/favicon.ico">
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 
 <!-- Setup Google Analytics -->
@@ -39,10 +39,7 @@
 
 <!-- end custom head snippets -->
 
-    <script src="../scripts/albumtilt.js" defer></script>
-    <script src="../scripts/lettereffect.js" defer></script>
-    <script src="../scripts/musictimer.js" defer></script>
-    <script src="../scripts/horseanger.js" defer></script>
+    <script src="/scripts/lettereffect.js" defer></script>
   </head>
   
   <body>
@@ -50,19 +47,17 @@
     <header class="page-header" role="banner">
       
       <h1 class="project-name">
-        <a href="./index.html">
-          <span style="color: #fff">
-            <div class="lettertile">Intikus' Place</div>
-          </span>
+        <a href="/index.html">
+          <span class="titletext">Intikus' Place</span>
         </a>
       </h1>
       <div id="subtopnav">
         <span class="split"></span>
         
-        <a href="./my.html"       class="ga-nav" title="my"><span class="split">my</span></a>
-        <a href="./music.html"    class="ga-nav" title="music"><span class="split">music</span></a>
-        <a href="./portfolio.html"class="ga-nav" title="portfolio"><span class="split">portfolio</span></a>
-        <a href="./site.html"     class="ga-nav" title="site"><span class="split">site</span></a>
+        <a href="/my.html"       class="ga-nav" title="my"><span class="split">my</span></a>
+        <a href="/music.html"    class="ga-nav" title="music"><span class="split">music</span></a>
+        <a href="/portfolio.html"class="ga-nav" title="portfolio"><span class="split">portfolio</span></a>
+        <a href="/website.html"  class="ga-nav" title="website"><span class="split">website</span></a>
       </div>
       
       
@@ -71,16 +66,16 @@
     <main id="content" class="main-content" role="main">
       <p><img src="./resources/horsepfpfull.gif" id="thehors" alt="A beautiful horse eating apples" /></p>
 
-<h2 id="gifts"><span class="animated_rainbow_1 background">Gifts</span></h2>
-<h2 id="gifts-1"><span class="animated_rainbow_1">Gifts</span></h2>
+<h2 id="newest-news">Newest news:</h2>
+<h3 id="album-release-overthought-madness">Album release: Overthought Madness</h3>
 
-<p><a href="./gifts" id="albumlink" style="color: #1e6bb8; display: block; width: fit-content;">
-    <img src="./resources/Billy-small.png" id="thealbum" alt="A beautiful album cover eating apples" sizes="20vw" />
+<p><a href="./music/madness" id="albumlink" style="color: #1e6bb8; display: block; width: fit-content;">
+    <img src="/resources/Covers/Overthought Madness.png" id="thealbum" alt="A beautiful album cover eating apples" sizes="20vw" />
 </a></p>
 
-<p>Finally out after all this time <a href="/gifts">(click on the image or this text)</a></p>
-
-<p>random tagline</p>
+<html>
+  <p id="randomWord"></p>
+</html>
 
 <h2 id="heres-links-to-other-positions"><span class="animated_rainbow_2">Here’s links to other positions:</span></h2>
 
@@ -100,12 +95,12 @@
     <img src="resources\icons\Youtube.png" class="logo" /><span class="spacer"> </span><span class="linker">Youtube</span>
 </a></p>
 
-<p><a href="https://discord.gg/h2geDHyFny" class="boxlink" style="color: #5556ed">
+<p><a href="/discord" class="boxlink" style="color: #5556ed">
     <img src="resources\icons\DisCord.png" class="logo" /><span class="spacer"> </span><span class="linker">Discord Server</span>
 </a></p>
 
-<p><a href="https://github.com/Intikus" class="boxlink" style="color: black">
-    <img src="resources\icons\GithUB.png" class="logo" /><span class="spacer"> </span><span class="linker">Github</span>
+<p><a href="https://github.com/Intikus" class="boxlink" style="color: white">
+    <img src="resources\icons\GithUB.png" style="filter: invert(1)" class="logo" /><span class="spacer"> </span><span class="linker">Github</span>
 </a></p>
 
 <p><a href="https://www.twitch.tv/intikus" class="boxlink" style="color: purple">
@@ -123,6 +118,13 @@
 <p><a href="https://twitter.com/Intikus" class="boxlink" style="color: #1da1f2">
     <img src="resources\icons\twitteR.png" class="logo" /><span class="spacer"> </span><span class="linker">Twitter</span>
 </a></p>
+
+<script src="/scripts/randomtagline.js" defer=""></script>
+
+<script src="/scripts/albumtilt.js" defer=""></script>
+
+<script src="/scripts/horseanger.js" defer=""></script>
+
 
       <div id="neighing"></div>
       <footer class="site-footer">

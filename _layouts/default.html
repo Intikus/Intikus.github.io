@@ -12,13 +12,10 @@
     <link rel="image_src" href="https://intikus.github.io/resources/djbla.gif">
     <meta property="og:image" itemprop="image primaryImageOfPage" content="https://intikus.github.io/resources/djbla.gif"/>
     <meta content="#FFCF40" data-react-helmet="true" name="theme-color" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="resources/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/resources/favicon.ico">
     {% include head-custom.html %}
-    <script src="../scripts/albumtilt.js" defer></script>
-    <script src="../scripts/lettereffect.js" defer></script>
-    <script src="../scripts/musictimer.js" defer></script>
-    <script src="../scripts/horseanger.js" defer></script>
+    <script src="/scripts/lettereffect.js" defer></script>
   </head>
   
   <body>
@@ -26,19 +23,17 @@
     <header class="page-header" role="banner">
       
       <h1 class="project-name">
-        <a href="./index.html">
-          <span style="color: #fff">
-            <div class="lettertile">Intikus' Place</div>
-          </span>
+        <a href="/index.html">
+          <span class="titletext">Intikus' Place</span>
         </a>
       </h1>
       <div id="subtopnav">
         <span class="split"></span>
         {% assign PageSlug = page.url | split:"." | first | remove_first:"/" | split:"/" | first %}
-        <a href="./my.html"       class="ga-nav{% if PageSlug == "my" %} active{% endif %}" title="my"><span class="split">my</span></a>
-        <a href="./music.html"    class="ga-nav{% if PageSlug == "music" %} active{% endif %}" title="music"><span class="split">music</span></a>
-        <a href="./portfolio.html"class="ga-nav{% if PageSlug == "portfolio" %} active{% endif %}" title="portfolio"><span class="split">portfolio</span></a>
-        <a href="./site.html"     class="ga-nav{% if PageSlug == "site" %} active{% endif %}" title="site"><span class="split">site</span></a>
+        <a href="/my.html"       class="ga-nav{% if PageSlug == "my" %} active{% endif %}" title="my"><span class="split">my</span></a>
+        <a href="/music.html"    class="ga-nav{% if PageSlug == "music" %} active{% endif %}" title="music"><span class="split">music</span></a>
+        <a href="/portfolio.html"class="ga-nav{% if PageSlug == "portfolio" %} active{% endif %}" title="portfolio"><span class="split">portfolio</span></a>
+        <a href="/website.html"  class="ga-nav{% if PageSlug == "site" %} active{% endif %}" title="website"><span class="split">website</span></a>
       </div>
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>

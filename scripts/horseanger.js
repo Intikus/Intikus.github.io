@@ -1,5 +1,5 @@
 var angry = 100;
-//const horsimage = document.getElementById("thehors");
+const horsimage = document.getElementById("thehors");
 const neighs = document.getElementById("neighing");
 neighs.setAttribute("style", "white-space: pre-wrap;");  
 horsimage.addEventListener("click", function() {

@@ -3,16 +3,16 @@ title: Intikus' Place
 ---
 <img src="./resources/horsepfpfull.gif" id="thehors" alt="A beautiful horse eating apples">
 
-## <span class="animated_rainbow_1 background">Gifts</span>
-## <span class="animated_rainbow_1">Gifts</span>
+## Newest news:
+### Album release: Overthought Madness
 
-<a href="./gifts" id = "albumlink" style="color: #1e6bb8; display: block; width: fit-content;" >
-    <img src="./resources/Billy-small.png" id = "thealbum" alt="A beautiful album cover eating apples" sizes="20vw">
+<a href="./music/madness" id = "albumlink" style="color: #1e6bb8; display: block; width: fit-content;" >
+    <img src="/resources/Covers/Overthought Madness.png" id = "thealbum" alt="A beautiful album cover eating apples" sizes="20vw">
 </a>
 
-Finally out after all this time [(click on the image or this text)](/gifts)
-
-random tagline
+<html>
+  <p id="randomWord"></p>
+</html>
 
 ## <span class="animated_rainbow_2">Here's links to other positions:</span>
 
@@ -32,12 +32,12 @@ random tagline
     <img src="resources\icons\Youtube.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Youtube</span>
 </a>
 
-<a href="https://discord.gg/h2geDHyFny" class = "boxlink" style="color: #5556ed">
+<a href="/discord" class = "boxlink" style="color: #5556ed">
     <img src="resources\icons\DisCord.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Discord Server</span>
 </a>
 
-<a href="https://github.com/Intikus" class = "boxlink" style="color: black">
-    <img src="resources\icons\GithUB.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Github</span>
+<a href="https://github.com/Intikus" class = "boxlink" style="color: white">
+    <img src="resources\icons\GithUB.png" style ="filter: invert(1)" class="logo"><span class="spacer">&ensp;</span><span class="linker">Github</span>
 </a>
 
 <a href="https://www.twitch.tv/intikus" class = "boxlink" style="color: purple">
@@ -55,3 +55,7 @@ random tagline
 <a href="https://twitter.com/Intikus" class = "boxlink" style="color: #1da1f2">
     <img src="resources\icons\twitteR.png" class="logo"><span class="spacer">&ensp;</span><span class="linker">Twitter</span>
 </a>
+
+<script src="/scripts/randomtagline.js" defer></script>
+<script src="/scripts/albumtilt.js" defer></script>
+<script src="/scripts/horseanger.js" defer></script>

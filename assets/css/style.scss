@@ -53,6 +53,14 @@ display: inline-block;
 animation: 0.5s ease-in-out alternate infinite wavy;
 }
 
+.titletext:hover{
+  color: turquoise;
+}
+.titletext{
+  color: #ffff;
+}
+
+
 @keyframes wavy {
 0% { transform: translateY(1.25px); }
 100% { transform: translateY(-1.25px); }
@@ -123,17 +131,16 @@ animation: 0.5s ease-in-out alternate infinite wavy;
 }
 
 #thealbum {
-  //max-width: 100%;
   max-height: 350px;
   max-width: 350px;
-  //position: absolute;
 }
 
 .websitesection{
-  width: 100%;
+  width: 60%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin-bottom: 2rem;
+  padding-left: 2rem;
 }
 
 .websitebutton{
@@ -144,92 +151,104 @@ animation: 0.5s ease-in-out alternate infinite wavy;
   display: flex;
   // justify-content: center;
   // align-items: center;
-  border-radius: 100%;
-  // outline: black;
-  // outline-style: solid;
-  // outline-width: 2px;
   padding: 1.5%;
-  margin-right: 3%;
+  margin-right: 0%;
 }
 // .websitecover{
 //   aspect-ratio: 1 / 1;
 //   position: relative;
 // }
 
+.songspotlight{
+  width: 100%;
+}
+.spotlightinfo{
+  width: 50%;
+}
+
 .songlist{  
   width: 100%;
   flex-wrap: wrap;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   font-size: 0px;
 }
-
+/*
+.thing::after {
+	content: "test";
+	z-index: 11;
+	position: absolute;
+	width: fit-content;
+	font-size: 20px;
+}*/
 .thing{
   width: 33.33333%;
   position: relative;
+  box-sizing: content-box;
+  outline: #0000 solid 0px;
+  border-radius: 0.1%;
+  /* flex-grow: 1; */
+  transition: transform .2s, opacity .2s, all .8s;
 }
-.active{
-  width: 100%;
+
+/* When the container is hovered, visually deprioritize the cards */
+.songlist:hover .thing {
+  filter: blur(10px);
+  // transform: translateY(6px);
+  opacity: .8;
+  outline: #0000 solid 0px;
+  /* Transition cards down slowly */
+  transition: transform 1s, opacity .2s, all .8s;
 }
+/* Override above for the hovered card to highlight it */
+.songlist .thing:hover {
+  filter: blur(0px);
+  //background-color: coral;
+  transform: translateY(-6px);
+  opacity: 1;
+  /* Make transition speed for hovered card normal again */
+  transition-duration: .2s;
+  outline: #ffffff solid 1rem;
+  z-index: 10;
+}
+
+/* Hovering the section container will cause 
+all the cards to visually deprioritize.
+We can prevent this by removing the pointer events
+from the section container so that nothing happens when 
+hovering over it, but then add back the pointer events 
+to the cards themselves so that the container hover only 
+activates when hovering a card. */
+.songlist {
+  /* remove cursor hover actions, 
+  can be moved into section class above */
+  pointer-events: none;
+}
+.thing {
+  /* add back cursor hover actions,
+  can be moved into article class above */
+  pointer-events: all;
+}
+
+
 
 .cover{
   width: 100%;
   height: auto;
 }
-.active>.cover{
-  width: 50%
+.cover:hover{
+  width: 100%;
 }
 
-
-.info{
-  transition: opacity 0s;
-  transition-timing-function: ease-out;
-  opacity: 0%;
-  font-size: 1.1rem;
-  aspect-ratio: 1 / 1;
-  position: absolute;
-  float: left;
-  left:50%;
-  padding: 1.5%;
-  border-color: black;
-  border-width: medium;
-  border-style: solid;
-  h1 {
-    //margin-top: 2rem;
-    //margin-bottom: 1rem;
-    font-weight: bold;
-    color: $header-bg-color-secondary;
-  }
-
-  h2 {
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    font-weight: normal;
-    color: $header-bg-color-secondary;
-  }
-
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
-    color: $section-headings-color;
-  }
-
-  p {
-    margin-bottom: 1em;
-  }
+:root {
+  //background:#eeedff;
+  background:#040406;
 }
 
-.active>.info{
-  transition: opacity 2s;
-  //display: inline;
-  top:0px;
-  opacity: 100%;
-}
+// h1,h2,h3 {
+//   color: #fff;
+// }
 
-//*{
-//    scrollbar-color: $header-bg-color $header-bg-color-secondary;
-//}
+h2 {
+  margin-top: 0rem !important;
+}

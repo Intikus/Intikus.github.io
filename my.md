@@ -3,11 +3,8 @@ title: Intikus' Place
 ---
 <!--{{ site.markdown }}-->
 
-# Giant About me
-where it goes blablablablablablablablablablablablablablablablablablablablablablablabla
+# About me, what i do
 
-Social medias i occupy
+I'm not good when it comes to writing about myself, this whole place is a work in progress. Hello future archivists, this is the ground floor.
 
-(Circles of things)
-
-Text that pops up when hovered, with description under it
+Hello, I'm Markus. A reflective delapidated physisist with a knack for foolishness. I go by the artist name Intikus (Int-eger + i + Mar-kus). Under this name I make mainly music, as well as all sorts of things to go with it, videos, sounds, programs, et cetera. I do whatever catches my curiosity as it is what I have the most fun with.
